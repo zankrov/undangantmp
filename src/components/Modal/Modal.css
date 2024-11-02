@@ -1,0 +1,35 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal-text{
+    padding: 1rem;
+    background-color: rgba(16, 15, 15, 0.8);
+    color: #e7d27c;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.button{
+    padding: 1rem 5rem;
+    border-style: solid;
+    border-radius: 20px;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(249, 249, 249, 0.5);
+
+
+}

@@ -1,0 +1,26 @@
+.music-player{
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    z-index: 100;
+}
+
+
+
+.music-btn{
+    border: 1px;
+    border: solid;
+    border-color: #e7d179;
+    background-color: white;
+    border-radius: 1rem;
+    
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.music-btn img{
+    max-width: 10px;
+    max-height: 10px;
+}

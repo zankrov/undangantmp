@@ -1,0 +1,35 @@
+.ucapan-container{
+    margin: 0.1rem;
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.ucapan-percard{
+    position: relative;
+    width: 90%;
+    max-width: 300px;
+    min-width: 300px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: white;
+}
+.ucapan-flower{
+    position: absolute;
+    width:60px;
+    height: 60px;
+    z-index: 100;
+    right: -3%;
+    bottom: -15%;
+    transform: rotate(-90deg);
+    
+}
