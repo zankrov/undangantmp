@@ -55,8 +55,8 @@ const Invitation = () => {
 
 
     ///nama
-    const name1 = 'Ida Bagus Diksa';
-    const name2 = 'Ida Ayu Tuti';
+    const name1 = 'Nama Pria';
+    const name2 = 'Nama Wanita';
 
 
 
@@ -94,7 +94,7 @@ const Invitation = () => {
              <div className="jumbotron">
                <div className='jumbotron-text'>
                  
-                 <p data-aos="fade-up">Upakara Pawiwahan</p>
+                 <p data-aos="fade-up">Upacara Pernikahan</p>
                  <h1 data-aos="fade-up">{name1}</h1>
                  <h1 data-aos="fade-up">&</h1>
                  <h1 data-aos="fade-up">{name2}</h1>
@@ -126,11 +126,13 @@ const Invitation = () => {
                  
      
                      <div className="om" data-aos="fade-up">
-                       <img src={om} alt="" />
+
+                      <h1 className='gold'>Undangan Pernikahan</h1>
+                       {/* <img src={om} alt="" /> */}
                        
                      </div>
                      <p data-aos="fade-up">
-                     Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/ Tuhan Yang Maha Esa, kami bermaksud mengundang Bapak/ Ibu/ Saudara/ i pada Upacara Pawiwahan {name1} dan {name2}.
+                     Atas berkat Tuhan Yang Maha Esa, kami bermaksud mengundang Bapak/ Ibu/ Saudara/ i pada Upacara Pernikahan {name1} dan {name2}.
      
                      </p>
                      <p data-aos="fade-up">Welcome, {myName}!</p>
@@ -148,10 +150,10 @@ const Invitation = () => {
                        <div className="card-desc">
                          <p className='tangerine'>{name1}</p>
                          <p>Putra Sulung Dari Pasangan</p>
-                         <p>Ida Bagus Dira</p>
+                         <p>Ayah</p>
                          <p>&</p>
-                         <p>Ida Ayu Sukarmini</p>
-                         <p>Griya Budha Laplapan, Ubud</p>
+                         <p>Ibu</p>
+                         <p>Asal (optional)</p>
 
                        </div>
                        <div className="card-frame">
@@ -167,10 +169,10 @@ const Invitation = () => {
                        <div className="card-desc">
                          <p className='tangerine'>{name2}</p>
                          <p>Putri Bungsu Dari Pasangan</p>
-                         <p>Ida Bagus Sudiarta</p>
+                         <p>Ayah</p>
                          <p>&</p>
-                         <p>Ida Ayu Sri Sandi </p>
-                         <p>Griya Bajangan Sandakan, Petang</p>
+                         <p>Ibu </p>
+                         <p>Asal (optional)</p>
 
                        </div>
                        <div className="card-frame">
@@ -186,16 +188,13 @@ const Invitation = () => {
                  </div>
                    <div className="white bg-gold center pad-3 italic">
                      <p data-aos="fade-up">
-                     Ihaiva stam mā vi yaustam,
-                     Visvām āyur vyasnutam.
-                     Krindantau putrair naptrbhih,
-                     Modamānau sve grhe.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatibus cumque harum, consectetur quis omnis dolore voluptatum quam eligendi at quos porro praesentium! Est repudiandae itaque a consectetur architecto cum repellendus, officia id illum vitae aliquam, enim ipsam beatae facere consequuntur voluptatum? Iusto itaque porro odit, asperiores similique excepturi laborum!
                      
                      </p>
                      <p data-aos="fade-up">
-                     Wahai pasangan suami-isteri, semoga kalian tetap bersatu dan tidak pernah terpisahkan. Semoga kalian mencapai hidup penuh kebahagiaan, tinggal di rumah yang penuh kegembiraan bersama seluruh keturunanmu.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatibus cumque harum, consectetur quis omnis dolore voluptatum quam eligendi at quos porro praesentium! Est repudiandae itaque a consectetur architecto cum repellendus, officia id illum vitae aliquam, enim ipsam beatae facere consequuntur voluptatum? Iusto itaque porro odit, asperiores similique excepturi laborum!
                      </p>
-                     <h4 data-aos="fade-up">~ Rgveda : X.85.42 ~</h4>
+                     <h4 data-aos="fade-up">~ Ayat yang dituju ~</h4>
                    </div>
                    <div className="bg">
                     <div className="bg-layer">
@@ -204,7 +203,7 @@ const Invitation = () => {
                           <div className="card-2 flex-1 flex">
                             <div className="flex column gap-1rem">
 
-                              <h1 className='gold'>Acara Pawiwahan</h1>
+                              <h1 className='gold'>Acara Pernikahan</h1>
                               <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami pada :</p>
                               <div className="card-2-content">
                                 <div className="border-gold flex column flex-1 align-center">
@@ -290,7 +289,7 @@ const Invitation = () => {
                           </div>
                           <div className="locationcontainer">
                             <img src={map} className='mapicon' alt="" />
-                            <p>Griya Budha Dangin Desa, Laplapan</p>
+                            <p>Alamat jln bla bla bla</p>
 
                           </div>
 
